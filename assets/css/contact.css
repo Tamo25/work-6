@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Cinzel;
+}
+
+/* header */
+
+header {
+  background-color: #f5efef;
+  display: flex;
+  align-items: center;
+  gap: 403px;
+  justify-content: space-around;
+  padding: 40px 100px;
+}
+.flex-header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+header nav ul{
+align-items: center;
+display: flex;
+gap: 48px;
+}
+header span{
+    font-weight: 500;
+}
+header a{
+  text-decoration: none;
+  color: #3F3232;
+}
+/* main */
+main{
+    padding: 162px 119px;
+}
+main h3{
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 70px;
+}
+main h4,
+main h5{
+    text-align: center;
+}
+main h5{
+    margin-top: 30px;
+    font-weight: 400;
+}
+form{
+   margin-top: 97px;
+}
+
+input{
+    height: 65.45138549804688px;
+width: 525px;
+border: 1px solid #75464AB2;
+border-radius: 10px;
+padding-left: 30px;
+font-family: Cinzel;
+}
+#lname{
+    margin-left: 200px;
+}
+#remail{
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+.text{
+    display: block;
+    margin-bottom: 21px;
+}
+textarea{
+    padding: 38px 32px;
+    border: 1px solid #75464AB2;
+    border-radius: 10px;
+    width: 588px;
+    height: 400px;
+    font-family: Cinzel;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #3D3D3D9C;
+margin-bottom: 44px;
+}
+main div{
+    display: flex;
+   gap: 74px;
+}
+iframe{
+    margin-top: 140px;
+    border-radius: 10px;
+    height: 400px;
+}
+main button{
+    padding: 20px 61px;
+    font-family: Cinzel;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0.03em;
+text-align: left;
+background-color:#3F3232;
+border: 0;
+border-radius: 10px;
+color: white;
+margin-top: 155px;
+margin-left: 1040px;
+}
+main span img{
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+
+/* footer */
+
+footer{
+    padding: 66px 100px;
+    background-color: #F5EFEF;
+    display: flex;
+    gap: 520px;
+  }
+   footer span{
+    font-weight: 500;
+  } 
+  footer p{
+    margin-top: 13px;
+  }
+  footer .icons{
+    margin-top: 47px;
+    display: flex;
+    gap: 30px;
+  }
+  footer .flex-wrap{
+    display: flex;
+    gap: 147px;
+  }
+  .flex-wrap div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .flex-wrap .contact span{
+    vertical-align: middle;
+  }
+  .contact span{
+    padding-right: 20px;
+  }
+  
+  

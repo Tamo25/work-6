@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Cinzel;
+}
+
+/* header */
+
+header {
+  background-color: #f5efef;
+  display: flex;
+  align-items: center;
+  gap: 403px;
+  justify-content: space-around;
+  padding: 40px 100px;
+}
+.flex-header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+header nav ul{
+align-items: center;
+display: flex;
+gap: 48px;
+}
+header span{
+    font-weight: 500;
+}
+header a{
+  text-decoration: none;
+  color: #3F3232;
+}
+/* main */
+main{
+    padding: 162px 119px;
+}
+main h3{
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+main section{
+    display: flex;
+    gap: 116px;
+    align-items: center;
+}
+.group{
+    margin-top: 248px;
+}
+
+
+/* footer */
+
+footer{
+    padding: 66px 100px;
+    background-color: #F5EFEF;
+    display: flex;
+    gap: 520px;
+  }
+   footer span{
+    font-weight: 500;
+  } 
+  footer p{
+    margin-top: 13px;
+  }
+  footer .icons{
+    margin-top: 47px;
+    display: flex;
+    gap: 30px;
+  }
+  footer .flex-wrap{
+    display: flex;
+    gap: 147px;
+  }
+  .flex-wrap div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .flex-wrap .contact span{
+    vertical-align: middle;
+  }
+  .contact span{
+    padding-right: 20px;
+  }
+  
+  
+  
