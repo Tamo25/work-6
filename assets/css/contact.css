@@ -62,13 +62,14 @@ form{
    margin-top: 97px;
 }
 
-input{
+.input{
     height: 65.45138549804688px;
 width: 525px;
 border: 1px solid #75464AB2;
 border-radius: 10px;
 padding-left: 30px;
 font-family: Cinzel;
+  outline: none;
 }
 #lname{
     margin-left: 200px;
@@ -96,6 +97,7 @@ letter-spacing: 0em;
 text-align: left;
 color: #3D3D3D9C;
 margin-bottom: 44px;
+  outline: none;
 }
 main div{
     display: flex;
@@ -121,9 +123,11 @@ color: white;
 margin-top: 155px;
 margin-left: 1040px;
 }
-main span img{
-    vertical-align: middle;
-    margin-right: 11px;
+.checkbox {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  outline: none;
 }
 
 
