@@ -61,16 +61,16 @@ main h5{
 form{
    margin-top: 97px;
 }
-
-.input{
-    height: 65.45138549804688px;
-width: 525px;
-border: 1px solid #75464AB2;
-border-radius: 10px;
-padding-left: 30px;
-font-family: Cinzel;
+.input {
+  height: 65.45138549804688px;
+  width: 525px;
+  border: 1px solid #75464ab2;
+  border-radius: 10px;
+  padding-left: 30px;
+  font-family: Cinzel;
   outline: none;
 }
+
 #lname{
     margin-left: 200px;
 }
